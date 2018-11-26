@@ -17,6 +17,8 @@ public class PoliceTest {
 
         assertTrue(new Police().checkIfDriverIsAdult(driverA));
         assertFalse(new Police().checkIfDriverIsAdult(driverB));
+
+        // assertTrue(new Police().checkIfDriverIsAdult(new Driver(18));
     }
 
 }
